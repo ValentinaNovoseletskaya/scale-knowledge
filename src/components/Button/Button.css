@@ -1,0 +1,25 @@
+.button {
+    background-color: #0A0A0A;
+    color: #FAF9F7;
+    border: 1px solid transparent;
+    border-radius: 30px;    
+    font-family: Inter;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 14.4px;
+    text-align: center;
+    margin: 0;
+    padding: 15px 32px 16px;
+    cursor: pointer;
+}
+
+.button_green {
+    background-color: #C6F572;
+    color: #0A0A0A;
+    padding: 15px 64px 16px;
+}
+
+.button_send {
+    width: 178px;
+}

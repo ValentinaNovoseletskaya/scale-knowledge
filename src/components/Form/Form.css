@@ -1,0 +1,79 @@
+.form {
+    background-color: #0A0A0A;
+    padding: 2px 0 96px;
+}
+
+.form__image {
+    margin-left: 747px;
+    position: absolute;
+    border-radius: 12px;
+    z-index: 1;
+}
+
+.form__container {
+    position: relative;
+    background-color: #FBF19B;
+    margin: 238px auto 0;
+    padding: 91px 264px 112px 96px;
+    width: 480px;
+    z-index: 2;
+    border-radius: 24px;
+}
+
+.form__title {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52.8px;
+    width: 341px;
+}
+
+.form__description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 434px;
+    margin: 28px 0 96px;
+}
+
+.form__inputs {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border: none;
+    gap: 61px;
+    padding: 0;
+    margin: 0;
+}
+
+.form__input {
+    font-family: Inter;
+    text-decoration: none;
+    border: none;
+    background-color: #FBF19B;
+    border-bottom: 2px solid #0A0A0A;
+    width: 100%;
+}
+
+.form__check {
+    display: flex;
+    margin: 54px 0 32px;
+}
+
+.form__checkbox {
+    appearance: none;
+    border: #0A0A0A solid 2px;
+    width: 20px;
+    height: 20px;
+    margin: 0 12px 0 0;
+    border-radius: 4px;
+}
+
+.form__check-label {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    margin: auto 0;
+}

@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #FAFAFA;
+    max-width: 1080px;
+    margin: 12px auto 0;
+    padding: 12px 12px 12px 32px;
+    border-radius: 20px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    list-style-type: none;
+    margin: auto 0;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.header__line {
+    text-decoration: none;
+    color: #0A0A0A;
+    cursor: pointer;
+}

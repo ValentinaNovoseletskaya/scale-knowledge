@@ -1,0 +1,24 @@
+.pricing {
+    position: relative;
+    background-color: #FBF19B;
+    padding: 231px 362px 254px 360px;
+    color: #0A0A0A;
+    text-align: center;
+    z-index: 1;
+}
+
+.pricing__title {
+    font-family: Roboto;
+    font-size: 57px;
+    font-weight: 300;
+    line-height: 64px;    
+    margin: 0 0 43px;
+}
+
+.pricing__description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0;
+}
